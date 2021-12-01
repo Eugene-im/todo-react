@@ -31,6 +31,10 @@ function App() {
     visibl: true
   }
 ];
+  
+  // remove template data to local storage
+  // use useEffect with return inside 
+  // return inside useEffect make changes on page on unmount component / reload page
 
   const [tasks, setTask] = React.useState(AllTasks);
 
