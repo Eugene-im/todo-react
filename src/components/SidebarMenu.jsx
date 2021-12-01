@@ -20,6 +20,7 @@ const SidebarMenu = ({tasks, setTask, activeMenu, setactiveMenu}) => {
         padding: "15px",
         marginBottom: "10px",
     }
+    // remove const styles
     
     // npm i classnames
     // import cx from 'classnames'
