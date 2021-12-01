@@ -20,7 +20,12 @@ const SidebarMenu = ({tasks, setTask, activeMenu, setactiveMenu}) => {
         padding: "15px",
         marginBottom: "10px",
     }
-
+    
+    // npm i classnames
+    // import cx from 'classnames'
+    // import styles from './CongratsPopup.module.scss';
+    
+    
 
     const makeVisibl = () => {
 
@@ -57,7 +62,9 @@ const SidebarMenu = ({tasks, setTask, activeMenu, setactiveMenu}) => {
     };
 
     return(
-        <div className="Sidebar">Список задач
+        <div className="Sidebar">
+     // <div className={styles.Sidebar}>
+            Список задач
             <div className="inner-sidebar">
                 {
                     
